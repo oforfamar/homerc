@@ -1,0 +1,2 @@
+# homerc
+my ~/.bashrc
