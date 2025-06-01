@@ -118,6 +118,10 @@ fi
 
 # website to customize: https://bash-prompt-generator.org/
 
+# sudo apt install xsel -y
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
+
 # normal user
 export PS1='\[\e[38;5;34m\]\u\[\e[0m\]@\[\e[38;5;208m\]\h\[\e[0m\]:\[\e[38;5;226m\]\w\[\e[0m\]\$ '
 
